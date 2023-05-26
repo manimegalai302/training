@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+#man1 {
+  width: 300px;
+  height: 80px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+</style>
+<script>
+function allowDrop(ev1) {
+  ev1.preventDefault();
+}
+
+function drag(ev1) {
+  ev1.dataTransfer.setData("text", ev1.target.id);
+}
+
+function drop(ev1) {
+  ev1.preventDefault();
+  var data = ev1.dataTransfer.getData("text");
+  ev1.target.appendChild(document.getElementById(data));
+}
+</script>
+</head>
+<body>
+
+<p>Drag the image into the rectangle:</p>
+
+<div id="man1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="bg1.jpg" draggable="true" ondragstart="drag(event)" width="290" height="60">
+
+</body>
+</html>
+
