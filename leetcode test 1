@@ -1,0 +1,17 @@
+Two Sum
+
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target) {
+    
+     for(let i=0; i<=number.length;i++){
+        for(let j=i+1;j<=number.length;j++){
+          let sum1=nums[0]+nums[1];
+          return(sum1);
+     }
+     }
+};
+        
