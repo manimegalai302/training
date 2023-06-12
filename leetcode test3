@@ -1,0 +1,19 @@
+3 First Missing Positive
+
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var firstMissingPositive = function(nums) {
+    let num1=number.sort(nums);
+    return(num1);
+
+    if( nums=0(n)){
+     return(number);
+    }
+    else{
+        return(number);
+    }
+
+};
+
