@@ -1,0 +1,19 @@
+ Find First and Last Position of Element in Sorted Array
+
+**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var searchRange = function(nums, target) {
+    let number1=number.index(nums);
+    return(number1);
+    
+    if(find(target)){
+      return(number1);
+    }
+    else{
+      return([-1,-1]);
+    }
+    
+};
